@@ -26,7 +26,7 @@
 }
 
 .cookie-banner-text {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.4;
@@ -35,7 +35,6 @@
   margin-bottom: 20px;
 
   @include media(desktop) {
-    font-size: 18px;
     text-align: left;
     max-width: 808px;
     margin-bottom: 0;
@@ -60,12 +59,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #45d554;
+  background: #ffb727;
   padding: 16px 32px;
   border-radius: 50px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.4;
   color: #2a2a2a;
   width: 100%;
@@ -75,7 +74,7 @@
   &:hover,
   &:focus,
   &:active {
-    background: #29b438;
+    background: #dc9300;
   }
 
   @include media(desktop) {
@@ -90,9 +89,9 @@
   padding: 15px 31px;
   border: 1px solid #333;
   border-radius: 50px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 1.4;
   color: #333;
   width: 100%;

@@ -4,8 +4,8 @@
 }
 
 .hero-bg-wrapper {
-  padding-top: 206px;
-  padding-bottom: 154px;
+  padding-top: 150px;
+  padding-bottom: 98px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
@@ -15,8 +15,8 @@
   background-size: cover;
 
   @include media(desktop) {
-    padding-top: 135px;
-    padding-bottom: 73px;
+    padding-top: 104px;
+    padding-bottom: 42px;
     max-width: 1440px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
   }
@@ -27,27 +27,53 @@
   }
 }
 
+.hero-content-wrapper {
+  background: #fff;
+  border-radius: 36px;
+  padding: 40px 16px;
+
+  @include media(desktop) {
+    padding: 40px;
+    max-width: 528px;
+  }
+}
+
 .hero-img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 40px;
 
   @include media(desktop) {
   }
 }
 
-.hero-text {
-  font-family: 'Quicksand', sans-serif;
+.hero-subtitle {
+  font-family: 'Manrope', sans-serif;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 26px;
   line-height: 1.4;
+  letter-spacing: -0.02em;
   text-align: center;
-  color: #fff;
-  margin-bottom: 32px;
+  color: #4d1933;
+  margin-bottom: 13px;
 
   @include media(desktop) {
-    font-size: 22px;
-    max-width: 480px;
+    font-size: 32px;
+  }
+}
+
+.hero-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  color: #4d5a5e;
+  margin-bottom: 40px;
+
+  @include media(desktop) {
+    font-size: 18px;
+    max-width: 420px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -57,12 +83,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #df3e3a;
-  border: 2px solid #fff;
+  background: #3b007d;
   border-radius: 50px;
-  padding: 10px 29px;
+  padding: 12px 20px;
   width: 100%;
-  max-width: 343px;
+  max-width: 311px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,11 +99,11 @@
   &:hover,
   &:focus,
   &:active {
-    background: #333;
+    background: #122328;
   }
 
   @include media(desktop) {
-    max-width: 220px;
+    max-width: 260px;
   }
 }
 
