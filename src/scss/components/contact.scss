@@ -1,10 +1,26 @@
 .contact-section {
-  padding-top: 64px;
-  padding-bottom: 80px;
+  background: #fdf8f4;
+
+  @include media(desktop) {
+  }
+}
+
+.contact-bg-wrapper {
+  padding-top: 80px;
+  padding-bottom: 354px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/contact/contact-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
 
   @include media(desktop) {
     padding-top: 80px;
-    padding-bottom: 120px;
+    padding-bottom: 703px;
+    max-width: 1440px;
+    background-image: url(../img/contact/contact-bg-desk.jpg);
   }
 }
 
@@ -13,28 +29,11 @@
   }
 }
 
-.contact-content-wrapper {
-  background: #002787;
-  border-radius: 48px;
-  padding: 48px 16px;
-
-  @include media(desktop) {
-    padding: 64px 40px;
-  }
-}
-
 .contact-title {
-  color: #fff;
+  text-align: center;
+  margin-bottom: 16px;
 
   @include media(desktop) {
-  }
-}
-
-.contact-subtitle {
-  color: #fff;
-
-  @include media(desktop) {
-    margin-bottom: 48px;
   }
 }
 
@@ -43,43 +42,44 @@
   justify-content: center;
   align-items: center;
   gap: 4px;
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
-  font-size: 24px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
   line-height: 1.4;
-  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: #fff;
-  margin-bottom: 8px;
+  text-align: center;
+  color: #3b007d;
+  word-break: break-all;
+  margin-bottom: 48px;
 
   @include media(desktop) {
-    font-size: 32px;
+    font-size: 18px;
+    margin-bottom: 64px;
   }
 }
 
 .arrow-icon {
-  min-width: 40px;
-}
-
-.contact-text {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.4;
-  color: #fff;
-  text-align: center;
-  margin-bottom: 24px;
-
-  @include media(desktop) {
-    margin-bottom: 48px;
-  }
+  min-width: 24px;
 }
 
 .contact-btn {
-  max-width: 311px;
+  max-width: 343px;
+  margin-bottom: 8px;
 
   @include media(desktop) {
-    max-width: 220px;
+    max-width: 260px;
+  }
+}
+
+.contact-text {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: #666;
+
+  @include media(desktop) {
   }
 }

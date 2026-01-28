@@ -14,17 +14,17 @@
 }
 
 .faq-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
   color: #333;
+  margin-bottom: 48px;
 
   @include media(desktop) {
-  }
-}
-
-.faq-subtitle {
-  @include media(desktop) {
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 64px;
   }
 }
@@ -39,9 +39,9 @@
 }
 
 .faq-list-item {
-  border: 1px solid #5e8cd1;
+  background: #3b007d;
   border-radius: 16px;
-  padding: 15px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -58,7 +58,7 @@
 
 .faq-top-text-btn {
   display: flex;
-  align-items: start;
+  align-items: center;
   width: 100%;
 
   @include media(desktop) {
@@ -66,15 +66,15 @@
 }
 
 .faq-btn-text {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.4;
-  color: #333;
+  color: #fff;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -97,11 +97,11 @@
 }
 
 .faq-bottom-text {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 500;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.4;
-  color: #666;
+  color: #ede0de;
   max-width: 287px;
   max-height: 0;
   overflow: hidden;

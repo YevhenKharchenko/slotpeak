@@ -58,9 +58,9 @@ html {
 }
 
 .section {
-  scroll-margin-top: 52px;
+  scroll-margin-top: 50px;
 
   @include media(desktop) {
-    scroll-margin-top: 62px;
+    scroll-margin-top: 60px;
   }
 }
